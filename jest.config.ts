@@ -6,6 +6,7 @@ export default {
   modulePathIgnorePatterns: ['<rootDir>/dist/'],
   preset: 'ts-jest',
   testEnvironment: 'node',
+  setupFilesAfterEnv: ['<rootDir>/test/_config/jest-setup.ts'],
   testMatch: ['**/test/**/*.(spec|test|acceptance).ts'],
   collectCoverage: true,
   moduleNameMapper: {

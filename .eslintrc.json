@@ -17,6 +17,7 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
+    "@typescript-eslint/no-explicit-any": ["warn"],
     "@typescript-eslint/member-delimiter-style": ["error"],
     "@typescript-eslint/semi": ["error"],
     "no-async-promise-executor": "off",
